@@ -45,17 +45,29 @@ img {
 
 article.left, article.right {
 	display: inline-block;
-	width: 36vw;
+	width: 34vw;
 	margin: .1em;
 	padding: .001em;
+  vertical-align: middle;
 }
 
 article.right {
 	position: right;
+  margin-left: 1em;
 }
 
 article.left {
 	position: left;
+  margin-right: 1em;
+}
+
+/*
+  Fix the lists
+*/
+
+ul, ol {
+  text-align: left;
+  margin-left: 11vw;
 }
 
 /*
@@ -63,7 +75,7 @@ article.left {
 */
 
 a {
-	color:blue;
+	color:lightblue;
 }
 
 a:visited {
